@@ -1,0 +1,83 @@
+package KamranPack;
+
+{$R *.res}
+{$R 'Kamranres.res'}
+{$IFDEF IMPLICITBUILDING This IFDEF should not be used by users}
+{$ALIGN 8}
+{$ASSERTIONS ON}
+{$BOOLEVAL OFF}
+{$DEBUGINFO OFF}
+{$EXTENDEDSYNTAX ON}
+{$IMPORTEDDATA ON}
+{$IOCHECKS ON}
+{$LOCALSYMBOLS ON}
+{$LONGSTRINGS ON}
+{$OPENSTRINGS ON}
+{$OPTIMIZATION ON}
+{$OVERFLOWCHECKS OFF}
+{$RANGECHECKS OFF}
+{$REFERENCEINFO ON}
+{$SAFEDIVIDE OFF}
+{$STACKFRAMES OFF}
+{$TYPEDADDRESS OFF}
+{$VARSTRINGCHECKS ON}
+{$WRITEABLECONST OFF}
+{$MINENUMSIZE 1}
+{$IMAGEBASE $400000}
+{$ENDIF IMPLICITBUILDING}
+{$IMPLICITBUILD OFF}
+
+requires
+  rtl,
+  vcl,
+  dbrtl,
+  vcldb,
+  VclSmp,
+  vclx,
+  adortl,
+  xmlrtl,
+  soaprtl,
+  inet,
+  vclimg,
+  IndySystem,
+  IndyProtocols,
+  IndyCore,
+  dsnap,
+  dxCoreRS26,
+  cxLibraryRS26,
+  dxGDIPlusRS26,
+  dxSpreadSheetRS26,
+  dxSpreadSheetCoreDialogsRS26,
+  dxSpreadSheetCoreRS26,
+  cxGridRS26,
+  cxTreeListRS26,
+  dxSkinsCoreRS26,
+  dxSpreadSheetCoreConditionalFormattingDialogsRS26;
+
+contains
+  UntDBBtn in 'UntDBBtn.pas',
+  UntDBPanel in 'UntDBPanel.pas',
+  UntDBUTIL in 'UntDBUTIL.pas',
+  UntDISKINFO in 'UntDISKINFO.pas',
+  UntEnterAsTab in 'UntEnterAsTab.pas',
+  UntFARSI in 'UntFARSI.pas',
+  UntINI in 'UntINI.pas',
+  Untjalalicalender in 'Untjalalicalender.pas',
+  UntMSGDLG in 'UntMSGDLG.pas',
+  KMBtn in 'KMBtn.pas',
+  UntKmSearchList in 'UntKmSearchList.pas',
+  SelectfrmU in 'SelectfrmU.pas' {selectfrm},
+  UntUTIL in 'UntUTIL.pas',
+  Wrapgrid in 'Wrapgrid.PAS',
+  KdbLookupComboboxU in 'KdbLookupComboboxU.pas',
+  KMPaqnell in 'KMPaqnell.pas',
+  smsService in 'smsService.pas',
+  UntLogfile in 'UntLogfile.pas',
+  logvieweru in 'logvieweru.pas' {frmlogviewer},
+  CommConnect in 'CommConnect.pas',
+  AdPort in 'APRO\AdPort.pas',
+  AproReg in 'APRO\AproReg.pas',
+  UntTbllookup in 'UntTbllookup.pas';
+
+end.
+
